@@ -1,0 +1,3 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>{% block title %}FitBuddy{% endblock %}</title><link rel="stylesheet" href="{{ url_for('static', path='styles.css') }}"></head>
+<body><nav><a class="brand" href="/">FitBuddy<span>AI</span></a><div><a href="/">Create plan</a><a href="/view-all-users">Coach dashboard</a></div></nav><main>{% block content %}{% endblock %}</main><footer>FitBuddy provides general fitness guidance, not medical advice.</footer></body></html>
